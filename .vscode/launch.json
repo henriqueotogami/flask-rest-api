@@ -10,14 +10,12 @@
             "request": "launch",
             "module": "flask",
             "env": {
-                "FLASK_APP": "${workspaceRoot}/run.py",
+                "FLASK_APP": "${workspaceRoot}/primeira_api/app.py",
                 "FLASK_ENV": "development",
                 "FLASK_DEBUG": "0"
             },
             "args": [
                 "run",
-                "--no-debugger",
-                "--no-reload"
             ],
             "jinja": true
         }
