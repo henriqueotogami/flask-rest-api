@@ -10,7 +10,7 @@
             "request": "launch",
             "module": "flask",
             "env": {
-                "FLASK_APP": "${workspaceRoot}/primeira_api/app.py",
+                "FLASK_APP": "${workspaceRoot}/dev_api/app.py",
                 "FLASK_ENV": "development",
                 "FLASK_DEBUG": "0"
             },
